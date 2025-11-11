@@ -4,7 +4,7 @@ public class Animal {
     public enum Especie {CACHORRO, GATO}
     public enum Porte {PEQUENO, MEDIO, GRANDE}
     public enum Sexo {MACHO, FEMEA}
-    public enum Status {DISPONÍVEL, ADOTADO, EM_ANDAMENTO}
+    public enum Status {DISPONIVEL, ADOTADO, EM_ANDAMENTO}
 
     // Atributos da Classe
     private int id;

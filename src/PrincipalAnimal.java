@@ -17,7 +17,7 @@ public class PrincipalAnimal {
             Animal.Especie.GATO,
             Animal.Porte.PEQUENO,
             Animal.Sexo.FEMEA,
-            Animal.Status.DISPONÍVEL);
+            Animal.Status.DISPONIVEL);
     Animal animal1 = new Animal();
 
     //ANIMAL 2 - PREENCHIDO POR MÉTODOS SETS
@@ -34,7 +34,7 @@ public class PrincipalAnimal {
     animal1.setSexo(Animal.Sexo.FEMEA);
     animal1.setEspecie(Animal.Especie.CACHORRO);
     animal1.setPorte(Animal.Porte.GRANDE);
-    animal1.setStatus(Animal.Status.DISPONÍVEL);
+    animal1.setStatus(Animal.Status.DISPONIVEL);
 
     //EXIBI INFORMAÇÕES DOS ANIMAIS CADASTRADOS
     animal.exibiInformacoes();
